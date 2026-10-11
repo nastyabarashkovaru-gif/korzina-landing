@@ -38,8 +38,9 @@ a{color:var(--accent-deep)}
 .hero{padding-block:44px 8px;background:radial-gradient(900px 380px at 90% -10%,var(--blush) 0,transparent 60%),radial-gradient(700px 320px at -10% 10%,var(--sage-soft) 0,transparent 60%)}
 .hero h1{font-size:clamp(30px,6.6vw,50px);font-weight:900;line-height:1.15;letter-spacing:-.02em}
 .method{margin:22px 0 0;font:800 clamp(22px,4.6vw,30px)/1.25 var(--f-head);color:var(--accent)}
-.teaser{font:700 clamp(21px,4.2vw,25px)/1.4 var(--f-head);margin:28px 0 14px}
-.teaser-sub{color:var(--ink-2);margin-bottom:24px}
+.teaser{margin:28px 0 24px;padding:22px 20px;background:var(--paper);border:2px solid var(--accent);border-radius:var(--radius);box-shadow:var(--shadow)}
+.teaser-main{font:800 clamp(21px,4.4vw,26px)/1.35 var(--f-head);margin:0 0 12px}
+.teaser-sub{color:var(--ink-2);margin:0}
 
 /* ---------- carousel ---------- */
 .carousel{position:relative;margin:28px 0 8px}
