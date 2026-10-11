@@ -263,3 +263,12 @@ footer a{color:var(--ink-2)}
 /* photo memes */
 .meme.photo .meme-photo{width:100%;height:auto;max-height:520px;object-fit:cover;background:var(--sand)}
 .ps .meme{margin:22px 0}
+
+/* emphasis */
+.hl{font-weight:700;background:linear-gradient(transparent 58%,#FBCDBD 58%);padding-inline:2px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.note-i{font-size:15.5px;line-height:1.55;font-style:italic;color:var(--muted);margin-top:-.5em}
+.ask{font:900 clamp(26px,5.6vw,34px)/1.25 var(--f-head);color:var(--accent);margin:44px 0 26px}
+.reveal-hl{font-weight:700;color:#fff!important;border-left:4px solid var(--gold);padding-left:14px}
+.cost.total{background:var(--plum);color:#fff}
+.cost.total span{color:#fff;font-weight:800}
+.cost.total b{color:var(--gold);font-size:20px}
