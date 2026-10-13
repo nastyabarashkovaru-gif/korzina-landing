@@ -1,5 +1,5 @@
-// Ссылка на оплату (Продамус). Пока пусто, кнопки ведут к блоку с ценой.
-var PAY_URL = "";
+// Ссылка на оплату (Tribute). Если пусто, кнопки ведут к блоку с ценой.
+var PAY_URL = "https://web.tribute.tg/p/GVt";
 
 if (PAY_URL) {
   document.querySelectorAll("[data-cta]").forEach(function (a) {
